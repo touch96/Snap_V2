@@ -41,7 +41,7 @@
 - (IBAction)doButtonDown:(id)sender {
     NSLog(@"account:%@", account.text);
     NSLog(@"password:%@", password.text);
-   // [self performSegueWithIdentifier:@"cameraSegue" sender:self];
+    //[self per:@"cameraSegue" sender:self];
     
 }
 

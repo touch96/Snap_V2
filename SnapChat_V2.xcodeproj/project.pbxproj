@@ -22,7 +22,7 @@
 		06A7686C180129C90090CBF5 /* SnapChat_V2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7686B180129C90090CBF5 /* SnapChat_V2Tests.m */; };
 		06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687618012AA70090CBF5 /* LogInViewController.m */; };
 		06A7687C1801314F0090CBF5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687B1801314F0090CBF5 /* SignInViewController.m */; };
-		06A7688018013E080090CBF5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A7687F18013E070090CBF5 /* MainStoryboard.storyboard */; };
+		06A7688018013E080090CBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A7687F18013E070090CBF5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		06A7687618012AA70090CBF5 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		06A7687A1801314F0090CBF5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		06A7687B1801314F0090CBF5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
-		06A7687F18013E070090CBF5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		06A7687F18013E070090CBF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 				06A7687B1801314F0090CBF5 /* SignInViewController.m */,
 				06A7687518012AA70090CBF5 /* LogInViewController.h */,
 				06A7687618012AA70090CBF5 /* LogInViewController.m */,
-				06A7687F18013E070090CBF5 /* MainStoryboard.storyboard */,
+				06A7687F18013E070090CBF5 /* Main.storyboard */,
 				06A7684F180129C90090CBF5 /* AppStoreExAppDelegate.h */,
 				06A76850180129C90090CBF5 /* AppStoreExAppDelegate.m */,
 				06A76855180129C90090CBF5 /* AppStoreExViewController.h */,
@@ -239,7 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06A7688018013E080090CBF5 /* MainStoryboard.storyboard in Resources */,
+				06A7688018013E080090CBF5 /* Main.storyboard in Resources */,
 				06A76859180129C90090CBF5 /* Images.xcassets in Resources */,
 				06A7684B180129C90090CBF5 /* InfoPlist.strings in Resources */,
 			);
