@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	// Do any additional setup after loading the view.  
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,7 +41,7 @@
 - (IBAction)doButtonDown:(id)sender {
     NSLog(@"account:%@", account.text);
     NSLog(@"password:%@", password.text);
-    [self performSegueWithIdentifier:@"cameraSegue" sender:self];
+   // [self performSegueWithIdentifier:@"cameraSegue" sender:self];
     
 }
 
