@@ -22,6 +22,7 @@
 		06A7686A180129C90090CBF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06A76868180129C90090CBF5 /* InfoPlist.strings */; };
 		06A7686C180129C90090CBF5 /* SnapChat_V2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7686B180129C90090CBF5 /* SnapChat_V2Tests.m */; };
 		06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687618012AA70090CBF5 /* LogInViewController.m */; };
+		06A7687C1801314F0090CBF5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687B1801314F0090CBF5 /* SignInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		06A7686B180129C90090CBF5 /* SnapChat_V2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChat_V2Tests.m; sourceTree = "<group>"; };
 		06A7687518012AA70090CBF5 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		06A7687618012AA70090CBF5 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		06A7687A1801314F0090CBF5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		06A7687B1801314F0090CBF5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		06A76846180129C90090CBF5 /* SnapChat_V2 */ = {
 			isa = PBXGroup;
 			children = (
+				06A7687A1801314F0090CBF5 /* SignInViewController.h */,
+				06A7687B1801314F0090CBF5 /* SignInViewController.m */,
 				06A7687518012AA70090CBF5 /* LogInViewController.h */,
 				06A7687618012AA70090CBF5 /* LogInViewController.m */,
 				06A7684F180129C90090CBF5 /* AppStoreExAppDelegate.h */,
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A7687C1801314F0090CBF5 /* SignInViewController.m in Sources */,
 				06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */,
 				06A76857180129C90090CBF5 /* AppStoreExViewController.m in Sources */,
 				06A7684D180129C90090CBF5 /* main.m in Sources */,
