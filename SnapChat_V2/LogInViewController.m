@@ -7,8 +7,11 @@
 //
 
 #import "LogInViewController.h"
+#import "CameraViewController.h"
 
 @interface LogInViewController ()
+
+//@property (nonatomic) CameraViewController *cameraViewController;
 
 @end
 
@@ -43,6 +46,10 @@
     NSLog(@"password:%@", password.text);
     //[self per:@"cameraSegue" sender:self];
     
+    CameraViewController *cameraViewController = [[CameraViewController alloc] init];
+    //[cameraViewController useCamera:self];
+    
+    [self.view addSubview:cameraViewController.view];
 }
 
 @end
