@@ -10,7 +10,7 @@
 
 @interface SignInViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITextField *newAccount;
-@property (strong, nonatomic) IBOutlet UITextField *newPassword;
+@property (strong, nonatomic) IBOutlet UITextField *account;
+@property (strong, nonatomic) IBOutlet UITextField *password;
 
 @end

@@ -14,8 +14,8 @@
 
 @implementation SignInViewController
 
-@synthesize newAccount;
-@synthesize newPassword;
+@synthesize account;
+@synthesize password;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,8 +39,8 @@
 }
 
 - (IBAction)doButtonDown:(id)sender {
-    NSLog(@"newAccount:%@", newAccount.text);
-    NSLog(@"newPassword:%@", newPassword.text);
+    NSLog(@"newAccount:%@", account.text);
+    NSLog(@"newPassword:%@", password.text);
     [self performSegueWithIdentifier:@"cameraSegue" sender:self];
     
 }
