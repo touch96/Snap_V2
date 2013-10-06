@@ -13,7 +13,6 @@
 		06A7684B180129C90090CBF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06A76849180129C90090CBF5 /* InfoPlist.strings */; };
 		06A7684D180129C90090CBF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7684C180129C90090CBF5 /* main.m */; };
 		06A76851180129C90090CBF5 /* AppStoreExAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A76850180129C90090CBF5 /* AppStoreExAppDelegate.m */; };
-		06A76854180129C90090CBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A76852180129C90090CBF5 /* Main.storyboard */; };
 		06A76857180129C90090CBF5 /* AppStoreExViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A76856180129C90090CBF5 /* AppStoreExViewController.m */; };
 		06A76859180129C90090CBF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A76858180129C90090CBF5 /* Images.xcassets */; };
 		06A76860180129C90090CBF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A7685F180129C90090CBF5 /* XCTest.framework */; };
@@ -23,6 +22,7 @@
 		06A7686C180129C90090CBF5 /* SnapChat_V2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7686B180129C90090CBF5 /* SnapChat_V2Tests.m */; };
 		06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687618012AA70090CBF5 /* LogInViewController.m */; };
 		06A7687C1801314F0090CBF5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687B1801314F0090CBF5 /* SignInViewController.m */; };
+		06A7688018013E080090CBF5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A7687F18013E070090CBF5 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,6 @@
 		06A7684E180129C90090CBF5 /* SnapChat_V2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapChat_V2-Prefix.pch"; sourceTree = "<group>"; };
 		06A7684F180129C90090CBF5 /* AppStoreExAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreExAppDelegate.h; sourceTree = "<group>"; };
 		06A76850180129C90090CBF5 /* AppStoreExAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreExAppDelegate.m; sourceTree = "<group>"; };
-		06A76853180129C90090CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06A76855180129C90090CBF5 /* AppStoreExViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreExViewController.h; sourceTree = "<group>"; };
 		06A76856180129C90090CBF5 /* AppStoreExViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreExViewController.m; sourceTree = "<group>"; };
 		06A76858180129C90090CBF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		06A7687618012AA70090CBF5 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		06A7687A1801314F0090CBF5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		06A7687B1801314F0090CBF5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		06A7687F18013E070090CBF5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +122,9 @@
 				06A7687B1801314F0090CBF5 /* SignInViewController.m */,
 				06A7687518012AA70090CBF5 /* LogInViewController.h */,
 				06A7687618012AA70090CBF5 /* LogInViewController.m */,
+				06A7687F18013E070090CBF5 /* MainStoryboard.storyboard */,
 				06A7684F180129C90090CBF5 /* AppStoreExAppDelegate.h */,
 				06A76850180129C90090CBF5 /* AppStoreExAppDelegate.m */,
-				06A76852180129C90090CBF5 /* Main.storyboard */,
 				06A76855180129C90090CBF5 /* AppStoreExViewController.h */,
 				06A76856180129C90090CBF5 /* AppStoreExViewController.m */,
 				06A76858180129C90090CBF5 /* Images.xcassets */,
@@ -239,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A7688018013E080090CBF5 /* MainStoryboard.storyboard in Resources */,
 				06A76859180129C90090CBF5 /* Images.xcassets in Resources */,
 				06A7684B180129C90090CBF5 /* InfoPlist.strings in Resources */,
-				06A76854180129C90090CBF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +293,6 @@
 				06A7684A180129C90090CBF5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		06A76852180129C90090CBF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06A76853180129C90090CBF5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		06A76868180129C90090CBF5 /* InfoPlist.strings */ = {
