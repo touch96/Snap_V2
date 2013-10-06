@@ -21,6 +21,7 @@
 		06A76862180129C90090CBF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A76844180129C90090CBF5 /* UIKit.framework */; };
 		06A7686A180129C90090CBF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06A76868180129C90090CBF5 /* InfoPlist.strings */; };
 		06A7686C180129C90090CBF5 /* SnapChat_V2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7686B180129C90090CBF5 /* SnapChat_V2Tests.m */; };
+		06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687618012AA70090CBF5 /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		06A76867180129C90090CBF5 /* SnapChat_V2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapChat_V2Tests-Info.plist"; sourceTree = "<group>"; };
 		06A76869180129C90090CBF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06A7686B180129C90090CBF5 /* SnapChat_V2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChat_V2Tests.m; sourceTree = "<group>"; };
+		06A7687518012AA70090CBF5 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		06A7687618012AA70090CBF5 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		06A76846180129C90090CBF5 /* SnapChat_V2 */ = {
 			isa = PBXGroup;
 			children = (
+				06A7687518012AA70090CBF5 /* LogInViewController.h */,
+				06A7687618012AA70090CBF5 /* LogInViewController.m */,
 				06A7684F180129C90090CBF5 /* AppStoreExAppDelegate.h */,
 				06A76850180129C90090CBF5 /* AppStoreExAppDelegate.m */,
 				06A76852180129C90090CBF5 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */,
 				06A76857180129C90090CBF5 /* AppStoreExViewController.m in Sources */,
 				06A7684D180129C90090CBF5 /* main.m in Sources */,
 				06A76851180129C90090CBF5 /* AppStoreExAppDelegate.m in Sources */,
