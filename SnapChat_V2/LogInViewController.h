@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @class CameraViewController;
 
@@ -14,6 +15,8 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *account;
 @property (strong, nonatomic) IBOutlet UITextField *password;
+@property BOOL newMedia;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
