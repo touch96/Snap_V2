@@ -44,12 +44,6 @@
 - (IBAction)doButtonDown:(id)sender {
     NSLog(@"account:%@", account.text);
     NSLog(@"password:%@", password.text);
-    //[self per:@"cameraSegue" sender:self];
-    
-    CameraViewController *cameraViewController = [[CameraViewController alloc] init];
-    //[cameraViewController useCamera:self];
-    
-    [self.view addSubview:cameraViewController.view];
 }
 
 @end
