@@ -7,19 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "CameraViewController.h"
-//#import <CameraViewController.h>
 
 @class CameraViewController;
 
-@interface LogInViewController : UIViewController {
-    CameraViewController *cameraViewController;
-}
+@interface LogInViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *account;
 @property (strong, nonatomic) IBOutlet UITextField *password;
-
-//@property (nonatomic,retain) CameraViewController *cameraViewController;
 
 @end
 

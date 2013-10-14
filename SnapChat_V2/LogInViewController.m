@@ -7,7 +7,6 @@
 //
 
 #import "LogInViewController.h"
-#import "CameraViewController.h"
 
 @interface LogInViewController ()
 
@@ -44,6 +43,13 @@
 - (IBAction)doButtonDown:(id)sender {
     NSLog(@"account:%@", account.text);
     NSLog(@"password:%@", password.text);
+    
+    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
+    ipc.sourceType = UIImagePickerControllerSourceTypeCamera;
+    ipc.allowsEditing = NO;
+    ipc.delegate = self;
+    
+    [self.navigationController presentViewController:ipc animated:YES completion:nil];
 }
 
 @end

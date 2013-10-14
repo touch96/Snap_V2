@@ -172,7 +172,6 @@ Privacy Policy</string>
                                 </state>
                                 <connections>
                                     <action selector="doButtonDown:" destination="Rnl-3u-1Vz" eventType="touchUpInside" id="hMW-Vh-D4T"/>
-                                    <segue destination="rfu-m5-GCS" kind="modal" id="wWE-v5-le5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -187,34 +186,6 @@ Privacy Policy</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3zy-ts-vBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="751" y="-618"/>
-        </scene>
-        <!--Camera View Controller-->
-        <scene sceneID="6wC-cB-y3E">
-            <objects>
-                <viewController id="GZn-NY-BAE" customClass="CameraViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PmV-xS-o3e"/>
-                        <viewControllerLayoutGuide type="bottom" id="1bx-JE-KpC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9va-LY-NtT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CV-dJ-aIU">
-                                <rect key="frame" x="102" y="355" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="g8q-gm-AhF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GSt-Pi-vMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1853" y="-618"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="u6s-Z6-iIg">
@@ -233,25 +204,6 @@ Privacy Policy</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10H-FV-jUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-236" y="-187"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="YHe-mL-gXB">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rfu-m5-GCS" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="sF8-Mz-7xF"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="w3B-HD-GEa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="GZn-NY-BAE" kind="relationship" relationship="rootViewController" id="hcI-e0-P1s"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ysn-aE-5uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1303" y="-618"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
