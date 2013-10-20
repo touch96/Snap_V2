@@ -181,11 +181,31 @@ Privacy Policy</string>
                     <connections>
                         <outlet property="account" destination="y68-Jq-Dc8" id="Us6-Lt-Ta2"/>
                         <outlet property="password" destination="geh-Ax-kSB" id="78e-JM-WaY"/>
+                        <segue destination="g9w-DM-LV3" kind="push" identifier="cameraSegue" id="0nU-yH-Fg2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3zy-ts-vBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="751" y="-618"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="g49-3Y-D2a">
+            <objects>
+                <viewController id="g9w-DM-LV3" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zyz-a8-mor"/>
+                        <viewControllerLayoutGuide type="bottom" id="b8f-pO-gRX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lhx-SH-vNM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xgF-L1-LZA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4Z-7Q-7wX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148" y="-618"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="u6s-Z6-iIg">

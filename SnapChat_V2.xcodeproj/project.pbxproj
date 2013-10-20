@@ -23,6 +23,7 @@
 		06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687618012AA70090CBF5 /* LogInViewController.m */; };
 		06A7687C1801314F0090CBF5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7687B1801314F0090CBF5 /* SignInViewController.m */; };
 		06A7688018013E080090CBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A7687F18013E070090CBF5 /* Main.storyboard */; };
+		683B541118136E5100228FBA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B541018136E5100228FBA /* MainViewController.m */; };
 		685F5A24180BDCE900A900DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685F5A23180BDCE900A900DF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		06A7687A1801314F0090CBF5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		06A7687B1801314F0090CBF5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		06A7687F18013E070090CBF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		683B540F18136E5100228FBA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		683B541018136E5100228FBA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		685F5A23180BDCE900A900DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -133,6 +136,8 @@
 				06A76856180129C90090CBF5 /* AppStoreExViewController.m */,
 				06A76858180129C90090CBF5 /* Images.xcassets */,
 				06A76847180129C90090CBF5 /* Supporting Files */,
+				683B540F18136E5100228FBA /* MainViewController.h */,
+				683B541018136E5100228FBA /* MainViewController.m */,
 			);
 			path = SnapChat_V2;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A7687C1801314F0090CBF5 /* SignInViewController.m in Sources */,
+				683B541118136E5100228FBA /* MainViewController.m in Sources */,
 				06A7687718012AA70090CBF5 /* LogInViewController.m in Sources */,
 				06A76857180129C90090CBF5 /* AppStoreExViewController.m in Sources */,
 				06A7684D180129C90090CBF5 /* main.m in Sources */,
